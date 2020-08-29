@@ -1,10 +1,10 @@
 {
   "development": {
-    "username": "postgre",
+    "username": "postgres",
     "password": "pgpw",
     "database": "darkforest",
     "host": "localhost",
-    "dialect": "postgre"
+    "dialect": "postgres"
   },
   "test": {
     "username": "root",

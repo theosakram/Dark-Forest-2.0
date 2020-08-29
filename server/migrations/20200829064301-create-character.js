@@ -10,11 +10,9 @@ module.exports = {
       },
       name: {
         type: Sequelize.STRING,
-        unique: true,
       },
       title: {
         type: Sequelize.STRING,
-        unique: true,
       },
       image_url: {
         type: Sequelize.STRING,
@@ -24,6 +22,9 @@ module.exports = {
       },
       grade: {
         type: Sequelize.STRING,
+      },
+      hp: {
+        type: Sequelize.INTEGER,
       },
       atk: {
         type: Sequelize.INTEGER,

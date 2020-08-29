@@ -69,6 +69,7 @@ module.exports = (sequelize, DataTypes) => {
         },
       },
       grade: DataTypes.STRING,
+      hp: DataTypes.INTEGER,
       atk: DataTypes.INTEGER,
       def: DataTypes.INTEGER,
     },
