@@ -1,0 +1,782 @@
+[
+  {
+    "name": "Taily",
+    "title": "Valiant Knight Commander",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20200225/25175450_55.png",
+    "job": "Knight",
+    "grade": "R",
+    "hp": 1986,
+    "atk": 217,
+    "def": 188
+  },
+  {
+    "name": "Dosarta",
+    "title": "Wind of Purity",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12124107_53.png",
+    "job": "Knight",
+    "grade": "SSR",
+    "hp": 2165,
+    "atk": 196,
+    "def": 201
+  },
+  {
+    "name": "Glenwys",
+    "title": "Shield of Empire",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12124517_91.png",
+    "job": "Knight",
+    "grade": "SR",
+    "hp": 2063,
+    "atk": 174,
+    "def": 195
+  },
+  {
+    "name": "Loman",
+    "title": "Gatekeeper of Trust",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12125427_48.png",
+    "job": "Knight",
+    "grade": "SSR",
+    "hp": 2245,
+    "atk": 156,
+    "def": 225
+  },
+  {
+    "name": "Sonia",
+    "title": "The Blue Hurricane",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12145527_42.png",
+    "job": "Knight",
+    "grade": "SR",
+    "hp": 2001,
+    "atk": 206,
+    "def": 185
+  },
+  {
+    "name": "Neraxis",
+    "title": "Obsidian Arrogance",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12145932_6.png",
+    "job": "Knight",
+    "grade": "R",
+    "hp": 2045,
+    "atk": 182,
+    "def": 201
+  },
+  {
+    "name": "Aselica",
+    "title": "Guardian of the Sun",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12152756_10.png",
+    "job": "Knight",
+    "grade": "R",
+    "hp": 1831,
+    "atk": 195,
+    "def": 212
+  },
+  {
+    "name": "Ricardo",
+    "title": "Lua's Judgment",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12163259_23.png",
+    "job": "Knight",
+    "grade": "R",
+    "hp": 2369,
+    "atk": 163,
+    "def": 254
+  },
+  {
+    "name": "Jane",
+    "title": "Alabaster Corpse",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12212526_1.png",
+    "job": "Knight",
+    "grade": "SR",
+    "hp": 2169,
+    "atk": 183,
+    "def": 221
+  },
+  {
+    "name": "Morrah",
+    "title": "Devil's Flame",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20191017/17113904_85.png",
+    "job": "Knight",
+    "grade": "SR",
+    "hp": 2014,
+    "atk": 209,
+    "def": 209
+  },
+  {
+    "name": "Demia",
+    "title": "Fortress of Steal",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12211556_8.png",
+    "job": "Knight",
+    "grade": "SR",
+    "hp": 2113,
+    "atk": 179,
+    "def": 234
+  },
+  {
+    "name": "Clause",
+    "title": "Knight of Iron Defense",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190711/11101702_2.png",
+    "job": "Knight",
+    "grade": "R",
+    "hp": 2013,
+    "atk": 182,
+    "def": 201
+  },
+  {
+    "name": "Phillop",
+    "title": "King of Dwarves",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12164041_62.png",
+    "job": "Knight",
+    "grade": "R",
+    "hp": 2109,
+    "atk": 176,
+    "def": 231
+  },
+  {
+    "name": "Hilda",
+    "title": "Spear of Dawn",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20200811/11120640_3.png",
+    "job": "Warrior",
+    "grade": "SR",
+    "hp": 1689,
+    "atk": 258,
+    "def": 145
+  },
+  {
+    "name": "Dark Lord Kasel",
+    "title": "Corrupted Warrior of the Holy Sword",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20200609/09125640_38.png",
+    "job": "Warrior",
+    "grade": "SSR",
+    "hp": 1734,
+    "atk": 287,
+    "def": 156
+  },
+  {
+    "name": "Kirze",
+    "title": "Crimson Crystal Cat",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190722/22150810_20.png",
+    "job": "Warrior",
+    "grade": "R",
+    "hp": 1421,
+    "atk": 241,
+    "def": 149
+  },
+  {
+    "name": "Bernheim",
+    "title": "Sword of Destruction",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12124643_52.png",
+    "job": "Warrior",
+    "grade": "SR",
+    "hp": 1821,
+    "atk": 262,
+    "def": 169
+  },
+  {
+    "name": "Nicky",
+    "title": "Chief Guard of Cruelty",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12124929_16.png",
+    "job": "Warrior",
+    "grade": "SSR",
+    "hp": 1579,
+    "atk": 231,
+    "def": 176
+  },
+  {
+    "name": "Chase",
+    "title": "Type. 0",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12143748_71.png",
+    "job": "Warrior",
+    "grade": "SR",
+    "hp": 1879,
+    "atk": 256,
+    "def": 166
+  },
+  {
+    "name": "Scarlet",
+    "title": "Fate of Silver",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12145754_34.png",
+    "job": "Warrior",
+    "grade": "SSR",
+    "hp": 1561,
+    "atk": 231,
+    "def": 171
+  },
+  {
+    "name": "Seria",
+    "title": "Shadow of the Abyss",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12151214_18.png",
+    "job": "Warrior",
+    "grade": "SSR",
+    "hp": 1532,
+    "atk": 258,
+    "def": 142
+  },
+  {
+    "name": "Priscilla",
+    "title": "Maid of Steel",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12153617_83.png",
+    "job": "Warrior",
+    "grade": "R",
+    "hp": 1632,
+    "atk": 241,
+    "def": 156
+  },
+  {
+    "name": "Viska",
+    "title": "Demon Eater",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12160958_45.png",
+    "job": "Warrior",
+    "grade": "SR",
+    "hp": 1632,
+    "atk": 247,
+    "def": 197
+  },
+  {
+    "name": "Theo",
+    "title": "Knight of Loyalty",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12161703_43.png",
+    "job": "Warrior",
+    "grade": "SSR",
+    "hp": 1552,
+    "atk": 291,
+    "def": 167
+  },
+  {
+    "name": "Naila",
+    "title": "Wind's Fighter",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12185234_93.png",
+    "job": "Warrior",
+    "grade": "R",
+    "hp": 1852,
+    "atk": 229,
+    "def": 181
+  },
+  {
+    "name": "Gau",
+    "title": "Barbarian of Frozen Land",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12162758_61.png",
+    "job": "Warrior",
+    "grade": "R",
+    "hp": 1887,
+    "atk": 223,
+    "def": 179
+  },
+  {
+    "name": "Kasel",
+    "title": "Warrior of the Holy Sword",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190711/11100421_74.png",
+    "job": "Warrior",
+    "grade": "SR",
+    "hp": 1487,
+    "atk": 249,
+    "def": 161
+  },
+  {
+    "name": "Kibera",
+    "title": "Insatiable Blade",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20200102/02124920_67.png",
+    "job": "Assassin",
+    "grade": "SR",
+    "hp": 937,
+    "atk": 319,
+    "def": 101
+  },
+  {
+    "name": "Gladi",
+    "title": "Beast of the Arena",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12125845_96.png",
+    "job": "Assassin",
+    "grade": "SSR",
+    "hp": 921,
+    "atk": 331,
+    "def": 112
+  },
+  {
+    "name": "Nia",
+    "title": "Darkness-swallowing Eyes",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12144110_8.png",
+    "job": "Assassin",
+    "grade": "SR",
+    "hp": 831,
+    "atk": 317,
+    "def": 108
+  },
+  {
+    "name": "Mirianne",
+    "title": "Servant of Blue",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12145209_71.png",
+    "job": "Assassin",
+    "grade": "R",
+    "hp": 929,
+    "atk": 301,
+    "def": 101
+  },
+  {
+    "name": "Laudia",
+    "title": "Dancer of the Oasis",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12150536_69.png",
+    "job": "Assassin",
+    "grade": "SSR",
+    "hp": 1029,
+    "atk": 363,
+    "def": 131
+  },
+  {
+    "name": "Erze",
+    "title": "Endless Thirts",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12151023_46.png",
+    "job": "Assassin",
+    "grade": "SR",
+    "hp": 821,
+    "atk": 321,
+    "def": 112
+  },
+  {
+    "name": "Ezekiel",
+    "title": "The Cursed Blood",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12162300_4.png",
+    "job": "Assassin",
+    "grade": "R",
+    "hp": 873,
+    "atk": 312,
+    "def": 126
+  },
+  {
+    "name": "Tanya",
+    "title": "The Silencing Blade",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12162609_18.png",
+    "job": "Assassin",
+    "grade": "SR",
+    "hp": 912,
+    "atk": 302,
+    "def": 139
+  },
+  {
+    "name": "Fluss",
+    "title": "Fluttering Blade",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12214019_16.png",
+    "job": "Assassin",
+    "grade": "R",
+    "hp": 957,
+    "atk": 291,
+    "def": 121
+  },
+  {
+    "name": "Reina",
+    "title": "Lightning Flash",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12210908_37.png",
+    "job": "Assassin",
+    "grade": "R",
+    "hp": 917,
+    "atk": 296,
+    "def": 109
+  },
+  {
+    "name": "Epis",
+    "title": "Captivating Demon",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12185613_27.png",
+    "job": "Assassin",
+    "grade": "R",
+    "hp": 891,
+    "atk": 319,
+    "def": 114
+  },
+  {
+    "name": "Talisha",
+    "title": "Brilliant Gemologist",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20200727/27174335_44.png",
+    "job": "Archer",
+    "grade": "SR",
+    "hp": 691,
+    "atk": 342,
+    "def": 91
+  },
+  {
+    "name": "Yuria",
+    "title": "Mysterious Tailor",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12114507_20.png",
+    "job": "Archer",
+    "grade": "SR",
+    "hp": 662,
+    "atk": 331,
+    "def": 95
+  },
+  {
+    "name": "Shamilla",
+    "title": "The Vessel of Curses",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12151516_44.png",
+    "job": "Archer",
+    "grade": "R",
+    "hp": 639,
+    "atk": 343,
+    "def": 98
+  },
+  {
+    "name": "Requina",
+    "title": "Merchant of Poison",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12152929_4.png",
+    "job": "Archer",
+    "grade": "R",
+    "hp": 653,
+    "atk": 351,
+    "def": 104
+  },
+  {
+    "name": "Zafir",
+    "title": "Prince of Sandstorm",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12153240_54.png",
+    "job": "Archer",
+    "grade": "SR",
+    "hp": 773,
+    "atk": 332,
+    "def": 124
+  },
+  {
+    "name": "Yanne",
+    "title": "Dragon Slayer",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12153422_46.png",
+    "job": "Archer",
+    "grade": "R",
+    "hp": 709,
+    "atk": 342,
+    "def": 104
+  },
+  {
+    "name": "Arch",
+    "title": "Arrow of Purity",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12172421_90.png",
+    "job": "Archer",
+    "grade": "R",
+    "hp": 739,
+    "atk": 341,
+    "def": 111
+  },
+  {
+    "name": "Luna",
+    "title": "Child of Moonlight",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12214216_93.png",
+    "job": "Archer",
+    "grade": "R",
+    "hp": 819,
+    "atk": 318,
+    "def": 98
+  },
+  {
+    "name": "Dimael",
+    "title": "Shadow Hunter",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12210415_38.png",
+    "job": "Archer",
+    "grade": "R",
+    "hp": 815,
+    "atk": 348,
+    "def": 103
+  },
+  {
+    "name": "Selene",
+    "title": "Wind-piercing Arrow",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20200113/13124430_73.png",
+    "job": "Archer",
+    "grade": "R",
+    "hp": 712,
+    "atk": 372,
+    "def": 86
+  },
+  {
+    "name": "Pansirone",
+    "title": "Psycothic Flame",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20191204/04165440_62.png",
+    "job": "Mechanic",
+    "grade": "SR",
+    "hp": 1050,
+    "atk": 321,
+    "def": 140
+  },
+  {
+    "name": "Hanus",
+    "title": "Instructor of Open Fire",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190802/02134009_42.png",
+    "job": "Mechanic",
+    "grade": "SSR",
+    "hp": 1192,
+    "atk": 308,
+    "def": 135
+  },
+  {
+    "name": "Cecilia",
+    "title": "Crimson Wind of Justice",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190710/10143857_60.png",
+    "job": "Mechanic",
+    "grade": "SR",
+    "hp": 1031,
+    "atk": 319,
+    "def": 112
+  },
+  {
+    "name": "Kara",
+    "title": "Epitome of Ancient Technomagic",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12144408_69.png",
+    "job": "Mechanic",
+    "grade": "SR",
+    "hp": 1129,
+    "atk": 342,
+    "def": 132
+  },
+  {
+    "name": "Chrisha",
+    "title": "Inquisitor of Blood and Iron",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12150107_78.png",
+    "job": "Mechanic",
+    "grade": "SR",
+    "hp": 1071,
+    "atk": 320,
+    "def": 109
+  },
+  {
+    "name": "Kara",
+    "title": "Epitome of Ancient Technomagic",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12144408_69.png",
+    "job": "Mechanic",
+    "grade": "SR",
+    "hp": 1129,
+    "atk": 342,
+    "def": 132
+  },
+  {
+    "name": "Crow",
+    "title": "The Punishing Bullet",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12152530_62.png",
+    "job": "Mechanic",
+    "grade": "SR",
+    "hp": 1098,
+    "atk": 295,
+    "def": 87
+  },
+  {
+    "name": "Oddy",
+    "title": "Clocksmith of Eternal Life",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12160533_78.png",
+    "job": "Mechanic",
+    "grade": "R",
+    "hp": 1146,
+    "atk": 335,
+    "def": 113
+  },
+  {
+    "name": "Mitra",
+    "title": "The Silver Battle Wolf",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12163909_58.png",
+    "job": "Mechanic",
+    "grade": "R",
+    "hp": 1024,
+    "atk": 313,
+    "def": 103
+  },
+  {
+    "name": "Annette",
+    "title": "Royal Technomagi",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12164202_6.png",
+    "job": "Mechanic",
+    "grade": "R",
+    "hp": 1213,
+    "atk": 302,
+    "def": 115
+  },
+  {
+    "name": "Rodina",
+    "title": "Blizzard's Sniper",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12211853_63.png",
+    "job": "Mechanic",
+    "grade": "R",
+    "hp": 912,
+    "atk": 382,
+    "def": 98
+  },
+  {
+    "name": "Miruru",
+    "title": "Cursed Pirate Empress",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12205652_23.png",
+    "job": "Mechanic",
+    "grade": "R",
+    "hp": 1132,
+    "atk": 335,
+    "def": 128
+  },
+  {
+    "name": "Lakrak",
+    "title": "Hunter of the Hand Cannon",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12175512_16.png",
+    "job": "Mechanic",
+    "grade": "R",
+    "hp": 1078,
+    "atk": 321,
+    "def": 113
+  },
+  {
+    "name": "Xerah",
+    "title": "Herald of the Blood Moon",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20200324/24160814_88.png",
+    "job": "Wizard",
+    "grade": "SR",
+    "hp": 852,
+    "atk": 372,
+    "def": 67
+  },
+  {
+    "name": "Cain",
+    "title": "Immortal God King",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190925/25105527_46.png",
+    "job": "Wizard",
+    "grade": "SSR",
+    "hp": 943,
+    "atk": 393,
+    "def": 75
+  },
+  {
+    "name": "Dakaris",
+    "title": "Sage of the Lake",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190710/10144350_89.png",
+    "job": "Wizard",
+    "grade": "SR",
+    "hp": 1072,
+    "atk": 318,
+    "def": 105
+  },
+  {
+    "name": "Veronica",
+    "title": "The Eye of Discrenment",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12125625_97.png",
+    "job": "Wizard",
+    "grade": "SSR",
+    "hp": 865,
+    "atk": 348,
+    "def": 132
+  },
+  {
+    "name": "Esker",
+    "title": "The Illusion Gambler",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12143933_2.png",
+    "job": "Wizard",
+    "grade": "SR",
+    "hp": 892,
+    "atk": 352,
+    "def": 90
+  },
+  {
+    "name": "Artemia",
+    "title": "Empress of Light",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12145349_5.png",
+    "job": "Wizard",
+    "grade": "SR",
+    "hp": 736,
+    "atk": 394,
+    "def": 65
+  },
+  {
+    "name": "Lilia",
+    "title": "The Daughter of Storm and Sea",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12150810_21.png",
+    "job": "Wizard",
+    "grade": "SR",
+    "hp": 903,
+    "atk": 323,
+    "def": 103
+  },
+  {
+    "name": "Ophelia",
+    "title": "Pathfinder of Fate",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12153059_48.png",
+    "job": "Wizard",
+    "grade": "R",
+    "hp": 1032,
+    "atk": 309,
+    "def": 112
+  },
+  {
+    "name": "Nyx",
+    "title": "Dimension Cleaver",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12171943_69.png",
+    "job": "Wizard",
+    "grade": "R",
+    "hp": 819,
+    "atk": 348,
+    "def": 77
+  },
+  {
+    "name": "Lewisia",
+    "title": "Royal Vermillion Blood",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12172207_15.png",
+    "job": "Wizard",
+    "grade": "R",
+    "hp": 879,
+    "atk": 334,
+    "def": 105
+  },
+  {
+    "name": "Aisha",
+    "title": "The Violet Princess",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12213542_17.png",
+    "job": "Wizard",
+    "grade": "R",
+    "hp": 954,
+    "atk": 321,
+    "def": 98
+  },
+  {
+    "name": "Pavel",
+    "title": "Wizard of Ice Dragon",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12215658_22.png",
+    "job": "Wizard",
+    "grade": "R",
+    "hp": 1024,
+    "atk": 306,
+    "def": 114
+  },
+  {
+    "name": "Lorraine",
+    "title": "Grand Elidoran Scholar",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12190542_92.png",
+    "job": "Wizard",
+    "grade": "R",
+    "hp": 1174,
+    "atk": 326,
+    "def": 86
+  },
+  {
+    "name": "Maria",
+    "title": "Fallen Witch",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20200113/13124305_28.png",
+    "job": "Wizard",
+    "grade": "R",
+    "hp": 929,
+    "atk": 342,
+    "def": 76
+  },
+  {
+    "name": "Cleo",
+    "title": "Sorcerers of Purgatory",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12154632_20.png",
+    "job": "Wizard",
+    "grade": "R",
+    "hp": 852,
+    "atk": 368,
+    "def": 91
+  },
+  {
+    "name": "Fallen Frey",
+    "title": "Forsaken Faith",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20200609/09133551_84.png",
+    "job": "Priest",
+    "grade": "SSR",
+    "hp": 1325,
+    "atk": 208,
+    "def": 129
+  },
+  {
+    "name": "Evan",
+    "title": "Forest of Knowledge",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20200420/20155420_49.png",
+    "job": "Priest",
+    "grade": "SSR",
+    "hp": 1325,
+    "atk": 208,
+    "def": 129
+  }
+]
