@@ -1,6 +1,6 @@
 {
   "development": {
-    "username": "postgres",
+    "username": "theosakram",
     "password": "pgpw",
     "database": "darkforest",
     "host": "localhost",
