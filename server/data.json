@@ -778,5 +778,145 @@
     "hp": 1325,
     "atk": 208,
     "def": 129
+  },
+  {
+    "name": "Rehartna",
+    "title": "Kindhearted Mesengger",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20191008/08105934_24.png",
+    "job": "Priest",
+    "grade": "SR",
+    "hp": 1285,
+    "atk": 197,
+    "def": 142
+  },
+  {
+    "name": "Juno",
+    "title": "The Chef of Heroes",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190626/26124053_54.png",
+    "job": "Priest",
+    "grade": "SSR",
+    "hp": 1139,
+    "atk": 208,
+    "def": 131
+  },
+  {
+    "name": "May",
+    "title": "The Girl Dreaming of Riches",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12143332_94.png",
+    "job": "Priest",
+    "grade": "SSR",
+    "hp": 1172,
+    "atk": 202,
+    "def": 129
+  },
+  {
+    "name": "Shea",
+    "title": "Aria of Fantasy",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12145027_17.png",
+    "job": "Priest",
+    "grade": "SR",
+    "hp": 1359,
+    "atk": 195,
+    "def": 132
+  },
+  {
+    "name": "Lucias",
+    "title": "Saint of Blessings",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12150314_32.png",
+    "job": "Priest",
+    "grade": "R",
+    "hp": 1212,
+    "atk": 181,
+    "def": 121
+  },
+  {
+    "name": "Lavril",
+    "title": "Lovely Evil Spirit",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12151350_60.png",
+    "job": "Priest",
+    "grade": "R",
+    "hp": 1119,
+    "atk": 243,
+    "def": 90
+  },
+  {
+    "name": "Mediana",
+    "title": "The Dangerous Doctor",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12160715_85.png",
+    "job": "Priest",
+    "grade": "R",
+    "hp": 1279,
+    "atk": 239,
+    "def": 109
+  },
+  {
+    "name": "Cassandra",
+    "title": "Tempting Winds",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12162012_91.png",
+    "job": "Priest",
+    "grade": "R",
+    "hp": 1321,
+    "atk": 252,
+    "def": 81
+  },
+  {
+    "name": "Laias",
+    "title": "Holy Priestess of Water",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12172626_13.png",
+    "job": "Priest",
+    "grade": "R",
+    "hp": 1072,
+    "atk": 222,
+    "def": 116
+  },
+  {
+    "name": "Leo",
+    "title": "Eternal Scribe",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12213752_97.png",
+    "job": "Priest",
+    "grade": "R",
+    "hp": 999,
+    "atk": 214,
+    "def": 103
+  },
+  {
+    "name": "Baudouin",
+    "title": "Holy Ruffian",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12212320_41.png",
+    "job": "Priest",
+    "grade": "R",
+    "hp": 1032,
+    "atk": 201,
+    "def": 154
+  },
+  {
+    "name": "Rephy",
+    "title": "Spiritual Guide",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12210143_49.png",
+    "job": "Priest",
+    "grade": "R",
+    "hp": 981,
+    "atk": 242,
+    "def": 104
+  },
+  {
+    "name": "Kaulah",
+    "title": "Shaman of Lightning",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12180110_58.png",
+    "job": "Priest",
+    "grade": "R",
+    "hp": 1101,
+    "atk": 199,
+    "def": 132
+  },
+  {
+    "name": "Frey",
+    "title": "Priestess of Light",
+    "image_url": "https://d2mnoz07ua7r8n.cloudfront.net/upload/character/20190612/12154140_64.png",
+    "job": "Priest",
+    "grade": "R",
+    "hp": 1205,
+    "atk": 252,
+    "def": 121
   }
 ]
