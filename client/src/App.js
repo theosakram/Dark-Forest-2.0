@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Navbar } from "./components";
-import { Home, Characters } from "./pages";
+import { Home, Characters, Details } from "./pages";
 import "./App.css";
 
 function App() {
@@ -11,9 +11,8 @@ function App() {
         <Navbar />
 
         <Switch>
-          <Route path="/characters">
-            <Characters />
-          </Route>
+          <Route path="/characters/:job" children={<Characters />} />
+          <Route path="/details/:id" children={<Details />} />
           <Route path="/">
             <Home />
           </Route>

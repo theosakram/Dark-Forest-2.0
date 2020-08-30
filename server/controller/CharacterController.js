@@ -19,6 +19,16 @@ class CharacterController {
       next(err);
     }
   }
+
+  static async getByJob(req, res, next) {
+    const { job } = req.params;
+    try {
+      const chara = await Character.findAll({ where: { job } });
+      res.status(200).json(chara);
+    } catch (err) {
+      next(err);
+    }
+  }
 }
 
 module.exports = CharacterController;

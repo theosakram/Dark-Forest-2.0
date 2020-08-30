@@ -1,8 +1,8 @@
 import { combineReducers } from "redux";
-import characterReducers from "./character";
-import inventoryReducers from "./inventory";
+import characters from "./character";
+import inventories from "./inventory";
 
 export default combineReducers({
-  characterReducers,
-  inventoryReducers,
+  characters,
+  inventories,
 });

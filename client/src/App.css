@@ -46,7 +46,11 @@
 }
 
 .navbar {
-  background-color: transparent !important;
+  /* background-color: transparent !important; */
+  position: absolute;
+  min-width: 100%;
+  background: rgba(0, 0, 0, 0.5) !important;
+  color: #f1f1f1;
 }
 
 .button.is-text {
@@ -59,4 +63,35 @@
 
 .navbar-item.has-text-white:hover {
   background-color: #186091;
+}
+
+.navbar-end {
+  position: relative;
+  justify-content: flex-end !important;
+}
+
+.content {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.hoper:hover {
+  background-color: #186091 !important;
+}
+
+.dropdown-content {
+  /* background-color: transparent !important; */
+  background: rgba(0, 0, 0, 0.5) !important;
+  color: #f1f1f1;
+}
+
+.dropdown-item.has-text-white:hover {
+  background-color: #186091 !important;
+}
+
+.card {
+  background-color: transparent !important;
 }

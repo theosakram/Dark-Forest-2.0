@@ -17,6 +17,9 @@ module.exports = {
       image_url: {
         type: Sequelize.STRING,
       },
+      background_url: {
+        type: Sequelize.STRING,
+      },
       job: {
         type: Sequelize.STRING,
       },

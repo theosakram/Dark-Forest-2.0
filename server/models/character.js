@@ -52,6 +52,20 @@ module.exports = (sequelize, DataTypes) => {
           },
         },
       },
+      background_url: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        validate: {
+          isUrl: {
+            args: true,
+            msg: "Invalid Background URL format",
+          },
+          notEmpty: {
+            args: true,
+            msg: "Background URL cannot be empty",
+          },
+        },
+      },
       job: {
         type: DataTypes.STRING,
         allowNull: false,

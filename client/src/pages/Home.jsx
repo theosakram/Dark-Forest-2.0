@@ -14,18 +14,6 @@ function Home() {
         <div className="container">
           <div className="columns">
             <div className="column is-one-third">
-              {/* <h1
-                className="title has-text-white"
-                style={{
-                  marginTop: "40vh",
-                  border: "1px solid white",
-                  paddingTop: 15,
-                  paddingBottom: 15,
-                  borderRadius: 5,
-                }}
-              >
-                D A R K F O R E S T
-              </h1> */}
               <img
                 src="./df-logo-2.png"
                 alt=""
@@ -41,7 +29,7 @@ function Home() {
                 className="title has-text-white"
                 style={{
                   marginTop: "42.5vh",
-                  textShadow: "5px 0 2px #186091",
+                  textShadow: "5px 5px 10px #186091",
                   fontSize: 48,
                 }}
               >

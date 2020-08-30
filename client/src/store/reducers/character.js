@@ -1,5 +1,6 @@
 const initialState = {
   characters: [],
+  oneCharacter: {},
   loading: false,
   error: null,
 };
@@ -10,6 +11,12 @@ function character(state = initialState, action) {
       return {
         ...state,
         characters: action.payload,
+      };
+
+    case "SET_ONE_CHARACTER":
+      return {
+        ...state,
+        oneCharacter: action.payload,
       };
 
     case "SET_LOADING_TRUE":

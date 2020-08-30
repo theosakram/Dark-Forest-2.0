@@ -1,9 +1,19 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import NavbarStart from "./NavbarStart";
+import Dropdown from "./Dropdown";
 
 function Navbar() {
   const { pathname } = useLocation();
+
+  const jobs = [
+    "Knight",
+    "Warrior",
+    "Assassin",
+    "Archer",
+    "Mechanic",
+    "Wizard",
+    "Priest",
+  ];
 
   return (
     <>
@@ -16,11 +26,10 @@ function Navbar() {
 
         <div class="navbar-menu">
           <div class="navbar-start">
-            {pathname === "/" ? (
-              <NavbarStart first={"Documentation"} second={"Characters"} />
-            ) : (
-              <NavbarStart first={"Hehe"} second={"Wuehehe"} />
-            )}
+            <div className="navbar-item">
+              <a class="button is-text has-text-white"> Documentation </a>
+              <Dropdown jobs={jobs} />
+            </div>
           </div>
 
           <div class="navbar-end">
