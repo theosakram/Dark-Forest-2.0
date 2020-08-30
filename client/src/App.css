@@ -44,3 +44,19 @@
   min-width: 100%;
   min-height: 100%;
 }
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.button.is-text {
+  text-decoration: none;
+}
+
+.button.has-text-white:hover {
+  background-color: #186091;
+}
+
+.navbar-item.has-text-white:hover {
+  background-color: #186091;
+}

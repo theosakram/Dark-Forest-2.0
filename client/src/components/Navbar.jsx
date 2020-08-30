@@ -1,51 +1,39 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
+import NavbarStart from "./NavbarStart";
 
 function Navbar() {
+  const { pathname } = useLocation();
+
   return (
     <>
-      <nav className="navbar" role="navigation" aria-label="main navigation">
-        <div className="navbar-brand">
-          <h1 className="navbar-item">DF</h1>
-
-          <a
-            role="button"
-            className="navbar-burger burger"
-            aria-label="menu"
-            aria-expanded="false"
-            data-target="navbarBasicExample"
-          >
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <Link to="/" class="navbar-item">
+            <h1 className="title has-text-white">DF</h1>
+          </Link>
         </div>
 
-        <div id="navbarBasicExample" className="navbar-menu">
-          <div className="navbar-start">
-            <a className="navbar-item">Home</a>
-
-            <a className="navbar-item">Documentation</a>
-
-            <div className="navbar-item has-dropdown is-hoverable">
-              <a className="navbar-link">More</a>
-
-              <div className="navbar-dropdown">
-                <a className="navbar-item">About</a>
-                <a className="navbar-item">Jobs</a>
-                <a className="navbar-item">Contact</a>
-                <hr className="navbar-divider" />
-                <a className="navbar-item">Report an issue</a>
-              </div>
-            </div>
+        <div class="navbar-menu">
+          <div class="navbar-start">
+            {pathname === "/" ? (
+              <NavbarStart first={"Documentation"} second={"Characters"} />
+            ) : (
+              <NavbarStart first={"Hehe"} second={"Wuehehe"} />
+            )}
           </div>
 
-          <div className="navbar-end">
-            <div className="navbar-item">
-              <div className="buttons">
-                <a className="button is-primary">
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-text has-text-white no-style">
+                  <i class="fas fa-volume-off"></i>
+                </a>
+                <a class="button is-text has-text-white no-style">
                   <strong>Sign up</strong>
                 </a>
-                <a className="button is-light">Log in</a>
+                <a class="button is-text has-text-white no-style">Log in</a>
+                <a class="button is-text has-text-white no-style">Disclaimer</a>
               </div>
             </div>
           </div>
