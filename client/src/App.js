@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Navbar } from "./components";
 import { Home, Characters, Details } from "./pages";
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+import "swiper/swiper-bundle.css";
 import "./App.css";
 
 function App() {

@@ -3,17 +3,17 @@ import React from "react";
 function Modal() {
   return (
     <>
-      <div class="modal">
-        <div class="modal-background"></div>
-        <div class="modal-card">
-          <header class="modal-card-head">
-            <p class="modal-card-title">Modal title</p>
-            <button class="delete" aria-label="close"></button>
+      <div className="modal">
+        <div className="modal-background"></div>
+        <div className="modal-card">
+          <header className="modal-card-head">
+            <p className="modal-card-title">Modal title</p>
+            <button className="delete" aria-label="close"></button>
           </header>
-          <section class="modal-card-body"></section>
-          <footer class="modal-card-foot">
-            <button class="button is-success">Save changes</button>
-            <button class="button">Cancel</button>
+          <section className="modal-card-body"></section>
+          <footer className="modal-card-foot">
+            <button className="button is-success">Save changes</button>
+            <button className="button">Cancel</button>
           </footer>
         </div>
       </div>

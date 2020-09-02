@@ -17,32 +17,34 @@ function Navbar() {
 
   return (
     <>
-      <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <Link to="/" class="navbar-item">
+      <nav className="navbar" role="navigation" aria-label="main navigation">
+        <div className="navbar-brand">
+          <Link to="/" className="navbar-item">
             <h1 className="title has-text-white">DF</h1>
           </Link>
         </div>
 
-        <div class="navbar-menu">
-          <div class="navbar-start">
+        <div className="navbar-menu">
+          <div className="navbar-start">
             <div className="navbar-item">
-              <a class="button is-text has-text-white"> Documentation </a>
+              <a className="button is-text has-text-white"> Documentation </a>
               <Dropdown jobs={jobs} />
             </div>
           </div>
 
-          <div class="navbar-end">
-            <div class="navbar-item">
-              <div class="buttons">
-                <a class="button is-text has-text-white no-style">
-                  <i class="fas fa-volume-off"></i>
+          <div className="navbar-end">
+            <div className="navbar-item">
+              <div className="buttons">
+                <a className="button is-text has-text-white no-style">
+                  <i className="fas fa-volume-off"></i>
                 </a>
-                <a class="button is-text has-text-white no-style">
+                <a className="button is-text has-text-white no-style">
                   <strong>Sign up</strong>
                 </a>
-                <a class="button is-text has-text-white no-style">Log in</a>
-                <a class="button is-text has-text-white no-style">Disclaimer</a>
+                <a className="button is-text has-text-white no-style">Log in</a>
+                <a className="button is-text has-text-white no-style">
+                  Disclaimer
+                </a>
               </div>
             </div>
           </div>

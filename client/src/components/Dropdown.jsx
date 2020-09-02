@@ -4,25 +4,26 @@ import { Link } from "react-router-dom";
 function Dropdown({ jobs }) {
   return (
     <>
-      <div class="dropdown is-hoverable">
-        <div class="dropdown-trigger">
+      <div className="dropdown is-hoverable">
+        <div className="dropdown-trigger">
           <button
-            class="button is-text has-text-white"
+            className="button is-text has-text-white"
             aria-haspopup="true"
             aria-controls="dropdown-menu3"
           >
             <span>Characters</span>
-            <span class="icon is-small">
-              <i class="fas fa-angle-down" aria-hidden="true"></i>
+            <span className="icon is-small">
+              <i className="fas fa-angle-down" aria-hidden="true"></i>
             </span>
           </button>
         </div>
-        <div class="dropdown-menu" id="dropdown-menu3" role="menu">
-          <div class="dropdown-content" style={{ width: 100 }}>
-            {jobs.map((job) => (
+        <div className="dropdown-menu" id="dropdown-menu3" role="menu">
+          <div className="dropdown-content" style={{ width: 100 }}>
+            {jobs.map((job, index) => (
               <Link
+                key={index}
                 to={`/characters/${job}`}
-                class="dropdown-item has-text-white"
+                className="dropdown-item has-text-white"
               >
                 {job}
               </Link>

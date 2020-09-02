@@ -2,7 +2,9 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchCharacters } from "../store/actions";
 import { useParams } from "react-router-dom";
-import { Card } from "../components";
+import { Card, Hero } from "../components";
+import { Swiper } from "swiper";
+import Details from "./Details";
 
 function Characters() {
   const { job } = useParams();
@@ -30,23 +32,42 @@ function Characters() {
       ? "#ff0303"
       : "#4eddc1";
 
+  let swiper = new Swiper(".swiper-container", {
+    spaceBetween: 30,
+    loop: true,
+    effect: "fade",
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
   return (
     <>
-      <div
-        className="box"
-        style={{
-          backgroundImage:
-            "url(https://www.kingsraid.com/resources_en/images/landscape.jpg?v=01)",
-        }}
-      >
-        <div className="hero is-fullheight">
-          <div className="columns is-multiline">
-            {characters.map((character) => (
-              <Card color={color} character={character} />
+      {characters && (
+        <div className="swiper-container">
+          <div className="swiper-wrapper">
+            {characters.map((character, index) => (
+              <div key={index} className="swiper-slide">
+                <Details oneCharacter={character} color={color} />
+                <div
+                  className="swiper-button-next"
+                  style={{ color, textShadow: `0 0 10px ${color}` }}
+                ></div>
+                <div
+                  className="swiper-button-prev"
+                  style={{ color, textShadow: `0 0 10px ${color}` }}
+                ></div>
+              </div>
             ))}
           </div>
         </div>
-      </div>
+      )}
+      {loading && <Hero />}
     </>
   );
 }

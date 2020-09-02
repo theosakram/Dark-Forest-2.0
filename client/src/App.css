@@ -95,3 +95,17 @@
 .card {
   background-color: transparent !important;
 }
+
+.card:hover {
+  cursor: pointer;
+}
+
+/* .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+} */

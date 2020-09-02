@@ -3,13 +3,13 @@ import React from "react";
 function FooterTab({ jobs }) {
   return (
     <>
-      <div class="hero-foot">
-        <nav class="tabs is-boxed is-fullwidth">
-          <div class="container">
+      <div className="hero-foot">
+        <nav className="tabs is-boxed is-fullwidth">
+          <div className="container">
             <ul>
               {jobs.map((job) => (
                 <li>
-                  <a class="hoper has-text-white">{job}</a>
+                  <a className="hoper has-text-white">{job}</a>
                 </li>
               ))}
             </ul>
